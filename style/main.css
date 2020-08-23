@@ -1,0 +1,96 @@
+:root{
+    --red: #e50914;
+    --black: #141414;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*Base*/
+body{ 
+    background: var(--black);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 100%;
+    fill: var(--red);
+    height: 8rem;
+    padding: 10%;
+    
+}
+header nav a{
+    text-decoration: none ; 
+    font-size: 1.8rem;
+    color: #AAA;
+    margin: 1rem;
+    
+}
+header nav a:hover{
+    color: #FFF
+}
+/*Main Movie */
+
+.p-movie{
+    font-size: 1.5rem;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url('/img/joker.jpg');
+
+    height: 35rem;
+    background-size:cover;
+    
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items:flex-start;
+    
+}
+.resume{
+    margin-top: 0,5%;
+}
+.title{ 
+    font-size:5rem;
+}
+.button{
+    margin-left: 3%;
+}
+.p-button{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color:white;
+    
+
+    padding: 1.8rem;
+    
+    
+    margin-right:2.0rem;
+    font-size: 100%;
+
+    cursor: pointer;
+    transition: .4s ease all;
+}
+.p-button:hover{
+    background-color: white;
+    color:black
+}
+.p-button i{
+    margin-right: 0.5rem;
+}
+.container{
+    margin-top: 1%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+}
+
+.p-movie .container{
+    width: 70%;
+}
