@@ -31,7 +31,7 @@ header .logo{
 }
 header nav a{
     text-decoration: none ; 
-    font-size: 1.8rem;
+    font-size: 100%;
     color: #AAA;
     margin: 1rem;
     
@@ -93,4 +93,14 @@ header nav a:hover{
 
 .p-movie .container{
     width: 70%;
+}
+
+.box-movie{
+    height:100%;
+    width:100%;
+    display: block;
+}
+
+.carousel-movies{
+    margin-top:5px;
 }
