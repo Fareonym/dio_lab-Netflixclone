@@ -1,6 +1,6 @@
 const API_KEY = "f599bd51105d0bac2a7f09e66c9d106d";
 const API_BASE = "https://api.themoviedb.org/3";
-const LANGUAGE = "En";
+const LANGUAGE = "Pt-Br";
 
 const basicFetch = async (endpoint) => {
   const response = await fetch(`${API_BASE}${endpoint}`);
