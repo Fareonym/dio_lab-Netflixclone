@@ -18,13 +18,20 @@ header.black {
 }
 
 .header--logo {
-  height: 25px;
-}
-
-.header--logo img {
   height: 100%;
 }
-
+.netflix_logo{
+  fill: red;
+}
+header nav a{
+    text-decoration: none ; 
+    font-size: 100%;
+    color: #AAA;
+    margin: 1.5rem;
+}
+header nav a:hover{
+    color: #FFF
+}
 .header--user {
   height: 35px;
 }
